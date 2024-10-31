@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FusMobilni</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Closed Drawer</string>
 </resources>
