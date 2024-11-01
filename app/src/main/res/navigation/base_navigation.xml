@@ -4,8 +4,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/base_navigation"
-    app:startDestination="@id/base_navigation"
+    app:startDestination="@id/dummy_fragment"
     >
-
-
+    <fragment
+        android:id="@+id/dummy_fragment"
+        android:name="com.example.fusmobilni.fragments.DummyFragment"
+        android:label="Dummy"
+        tools:layout="@layout/fragment_dummy"
+        />
+    <fragment
+        android:id="@+id/second_dummy_fragment"
+        android:name="com.example.fusmobilni.fragments.SecondDummyFragment"
+        android:label="Dummy"
+        tools:layout="@layout/fragment_second_dummy"
+        />
 </navigation>

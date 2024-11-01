@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <item
-        android:id="@+id/favorite"
-        android:icon="@drawable/ic_launcher_background"
-        android:title="Favourites"
-        app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/search"
-        android:icon="@drawable/ic_launcher_background"
-        android:title="Search"
-        app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/more"
-        android:icon="@drawable/ic_launcher_background"
-        android:title="More Options"
-        app:showAsAction="never" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dummy_fragment"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Favourites"
+            app:showAsAction="ifRoom"
+            android:orderInCategory="100"/>
+        <item
+            android:id="@+id/second_dummy_fragment"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Favourites"
+            app:showAsAction="ifRoom"
+            android:orderInCategory="200"/>
+    </group>
 </menu>

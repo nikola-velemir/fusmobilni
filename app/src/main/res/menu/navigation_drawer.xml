@@ -5,20 +5,15 @@
         android:title="Kurcina">
         <menu>
             <item
-                android:id="@+id/inbox_item"
-                android:icon="@drawable/ic_hamburger"
-                android:title="Kurcina"
-                android:checkable="true"/>
+                android:id="@+id/dummy_fragment"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Favourites"/>
             <item
-                android:id="@+id/outbox_item"
-                android:icon="@drawable/ic_hamburger"
-                android:title="Kurcina"
-                android:checkable="true"/>
-            <item
-                android:id="@+id/favourites_item"
-                android:icon="@drawable/ic_hamburger"
-                android:title="Kurcina"
-                android:checkable="true"/>
+                android:id="@+id/second_dummy_fragment"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Favourites"
+             />
+
         </menu>
     </item>
 
