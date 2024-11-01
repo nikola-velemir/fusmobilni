@@ -13,9 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -28,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Top 5 events in your city"
+                android:textAlignment="center"
                 android:textSize="24sp" />
 
             <HorizontalScrollView
@@ -43,10 +42,12 @@
 
                     <!-- Material Cards for Top 5 Events -->
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -55,10 +56,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -67,10 +70,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -79,10 +84,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -91,10 +98,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -110,6 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Top 5 services in your city"
+                android:textAlignment="center"
                 android:textSize="24sp" />
 
             <HorizontalScrollView
@@ -125,10 +135,12 @@
 
                     <!-- Material Cards for Top 5 Services -->
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -137,10 +149,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -149,10 +163,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -161,10 +177,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -173,10 +191,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -194,6 +214,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Top 5 products in your city"
+                android:textAlignment="center"
                 android:textSize="24sp" />
 
             <HorizontalScrollView
@@ -209,10 +230,12 @@
 
                     <!-- Material Cards for Top 5 Products -->
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
+
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -221,10 +244,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
+
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -233,10 +258,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
+
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -245,10 +272,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
+
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -257,10 +286,12 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="150dp"
+                        android:layout_width="200dp"
+
                         android:layout_height="200dp"
                         android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp">
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="10dp">
 
                         <TextView
                             android:layout_width="wrap_content"
