@@ -82,7 +82,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        _appBarConfiguration = new AppBarConfiguration.Builder(R.id.dummy_fragment,R.id.second_dummy_fragment).setOpenableLayout(_drawer).build();
+        _appBarConfiguration = new AppBarConfiguration.Builder(R.id.home_fragment, R.id.dummy_fragment,R.id.second_dummy_fragment).setOpenableLayout(_drawer).build();
         NavigationUI.setupWithNavController(_navigationView, _navController);
         NavigationUI.setupActionBarWithNavController(this, _navController, _appBarConfiguration);
     }
