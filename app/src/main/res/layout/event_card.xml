@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/white"
         android:orientation="vertical">
 
@@ -39,8 +39,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
-                android:background="#80FFFFFF"
                 android:alpha="0.9"
+                android:background="#80FFFFFF"
                 app:cardCornerRadius="14dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -52,7 +52,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/textViewDay"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="70"
@@ -67,7 +67,7 @@
                         app:layout_constraintTop_toTopOf="@id/imageBanner" />
 
                     <TextView
-                        android:id="@+id/dateBox"
+                        android:id="@+id/textViewMonthAndYear"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:alpha="70"
@@ -85,8 +85,8 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="10dp"
-                android:background="#80FFFFFF"
                 android:alpha="0.9"
+                android:background="#80FFFFFF"
                 app:cardCornerRadius="14dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -103,15 +103,28 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/eventTitle"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="International Band Music festiva"
-            android:textColor="@android:color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:layout_height="80sp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textViewServiceTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:ellipsize="end"
+                android:padding="10dp"
+                android:text="International Band Music festiva"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:id="@+id/attendeesContainer"
@@ -162,7 +175,7 @@
                 android:src="@drawable/ic_location" />
 
             <TextView
-                android:id="@+id/locationText"
+                android:id="@+id/textViewLocation"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:drawablePadding="4dp"
