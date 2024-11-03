@@ -29,4 +29,9 @@
         android:name="com.example.fusmobilni.fragments.ThirdDummyFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_third_dummy"/>
+    <fragment
+        android:id="@+id/fragment_service_view"
+        android:name="com.example.fusmobilni.fragments.ServiceView"
+        android:label="My Services"
+        tools:layout="@layout/fragment_service_view"/>
 </navigation>
