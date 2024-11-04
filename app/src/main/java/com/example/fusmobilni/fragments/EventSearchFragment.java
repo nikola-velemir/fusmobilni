@@ -69,13 +69,8 @@ public class EventSearchFragment extends Fragment {
         View view = this._binding.getRoot();
 
         this._searchView = this._binding.eventsSearchView;
-        this._searchBar = this._binding.eventsSearchBar;
 
-        this._searchBar.setOnClickListener(v->{
-            this._searchView.setVisibility(View.VISIBLE);
-            this._searchView.requestFocus();
-
-        });
+        this._searchView.show();
 
         return view;
     }

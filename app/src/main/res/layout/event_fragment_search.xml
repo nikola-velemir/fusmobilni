@@ -11,26 +11,36 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.google.android.material.search.SearchBar
-            android:id="@+id/events_search_bar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Search"
-            app:strokeColor="#5669FF"
-            app:strokeWidth="2dp" />
-
         <com.google.android.material.search.SearchView
             android:id="@+id/events_search_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Search"
+            android:layout_height="56dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
-            android:focusable="true">
+            android:focusable="true"
+            android:hint="Search">
 
             <!-- Search suggestions/results go here (ScrollView, RecyclerView, etc.). -->
 
         </com.google.android.material.search.SearchView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+
+            <include layout="@layout/event_card_horizontal"/>
+        </ListView>
     </LinearLayout>
 
 </FrameLayout>
