@@ -14,7 +14,7 @@
         <com.google.android.material.search.SearchView
             android:id="@+id/events_search_view"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="93dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             android:focusable="true"
@@ -24,23 +24,14 @@
 
         </com.google.android.material.search.SearchView>
 
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/events_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-
-            <include layout="@layout/event_card_horizontal"/>
-        </ListView>
+            android:layout_height="match_parent"
+            tools:listitem="@layout/event_card_horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="vertical"
+            ></androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 
 </FrameLayout>
