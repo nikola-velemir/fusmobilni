@@ -30,4 +30,9 @@
         android:name="com.example.fusmobilni.activities.LoginActivity"
         android:label="Profile"
         tools:layout="@layout/fragment_third_dummy"/>
+    <activity
+        android:id="@+id/activity_register"
+        android:name="com.example.fusmobilni.activities.RegisterActivity"
+        android:label="Register"
+        tools:layout="@layout/activity_register"/>
 </navigation>

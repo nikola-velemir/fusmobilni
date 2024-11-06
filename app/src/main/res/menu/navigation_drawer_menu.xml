@@ -13,6 +13,10 @@
                 android:icon="@drawable/ic_person"
                 android:title="Login" />
             <item
+                android:id="@+id/activity_register"
+                android:icon="@drawable/ic_person"
+                android:title="Register" />
+            <item
                 android:id="@+id/dummy_fragment"
                 android:icon="@drawable/ic_notification"
                 android:title="Notifications" />
