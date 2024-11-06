@@ -35,7 +35,7 @@
         android:name="com.example.fusmobilni.fragments.ServiceView"
         android:label="My Services"
         tools:layout="@layout/fragment_service_view"/>
-  <fragment>
+  <fragment
         android:id="@+id/events_search_fragment"
         android:name="com.example.fusmobilni.fragments.EventSearchFragment"
         android:label="Search"
